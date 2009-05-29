@@ -1,0 +1,102 @@
+.error {
+    background: red;
+    color: white;
+    padding: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+.chicago-game {
+    width: 710px;
+    margin: 0 auto;
+}
+
+.player-info {
+    width: 150px;
+    float: left;
+}
+
+.game {
+    width: 360px;
+    float: left;
+    padding: 0 20px;
+}
+
+.top-list {
+    width: 160px;
+    float: left;
+}
+
+.top-list label {
+    display: block;
+}
+
+.submit, .score-list {
+    margin: 4px 0;
+}
+
+.cube {
+    width: 120px;
+    float: left;
+}
+
+.kostka {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.value-1 {
+    background: url('images/kostka1.jpg') no-repeat;
+}
+
+.value-2 {
+    background: url('images/kostka2.jpg') no-repeat;
+}
+
+.value-3 {
+    background: url('images/kostka3.jpg') no-repeat;
+}
+
+.value-4 {
+    background: url('images/kostka4.jpg') no-repeat;
+}
+
+.value-5 {
+    background: url('images/kostka5.jpg') no-repeat;
+}
+
+.value-6 {
+    background: url('images/kostka6.jpg') no-repeat;
+}
+
+.score-list {
+    border-collapse: collapse;
+}
+
+.score-list th, .score-list td {
+    padding: 2px 4px;
+}
+
+.score-list th {
+    background: #cccccc;
+    border-bottom: 1px solid black;
+}
+
+table tr.even td {
+    background: #eeeeee;
+}
